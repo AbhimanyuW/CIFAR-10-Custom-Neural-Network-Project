@@ -30,3 +30,7 @@ for i, conv in enumerate(self.convs): out += a[:, i:i + 1] * conv(x)
 
 3. The mean feature f is then passed to a classifier, which, in our case, is a fully connected layer with a softmax activation (nn.Linear(512, 10)). This layer produces the final class scores for the input image.
 
+## Results :
+
+![image](https://github.com/AbhimanyuW/CIFAR-10-Custom-Neural-Network-Project/assets/63635609/7a64dd23-0f05-4ce6-804e-53aa0844fac3)
+
